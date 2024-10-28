@@ -1,0 +1,97 @@
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+  display: flexbox;
+  justify-content: center;
+}
+.card{
+  background: rgba(255, 255, 255, 0.883);
+  border: 1px solid lightgrey;
+  margin: 30px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(48, 44, 44, 0.1);
+  border-radius: 10px;
+}
+
+.portfolio{
+  margin : 0 auto;
+  width: 600px;
+  height: 400px;
+}
+
+button{
+  margin: 0 auto;
+  font-size: medium;
+  border-radius: 5px;
+  color: #f0f0f0;
+  background-color: #1E3E62;
+  border: 1px solid;
+  padding: 13px;
+}
+button:hover{
+  background-color: #424951;
+  color: #7896b8;
+  cursor:pointer;
+}
+
+#profilepic{
+  width : 100px;
+  box-shadow: 0 10px 40px rgba(61, 59, 59, 0.1);
+  margin: 0 auto;
+  border-radius: 50%;
+}
+body{
+  background-color: #FAF7F0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color:rgb(10, 27, 63);
+  cursor: pointer;
+}
+h1{
+  font-size: 2rem;
+  color: rgb(1, 47, 62);
+}
+h3{
+  font-size: 1,5rem;
+  color :  rgb(1, 47, 62);
+  margin : 10px;
+}
+li{
+  margin:10px;
+  text-decoration: none;
+  list-style-type:none;
+  display:inline;
+}
+
+
+.socials{
+ /* Définit automatiquement les marges à gauche/droite */
+  display: flexbox;
+  justify-content: center;
+}
